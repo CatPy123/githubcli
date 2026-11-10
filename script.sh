@@ -6,7 +6,7 @@ clipath=$(find /c/Users/$USER -name "gh.exe" 2>/dev/null)
 
 echo $clipath
 
-echo alias gh="$clipath" > ~/.bashrc
+echo alias gh="'$clipath'" > ~/.bashrc
 
 source ~/.bashrc
 
